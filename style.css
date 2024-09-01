@@ -1,0 +1,156 @@
+body {
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    margin: 0 auto;
+    direction: rtl;
+    font-family: Byekan;
+}
+
+@font-face {
+    font-family: Byekan;
+    src: url(/BYekan/BYekan+.ttf);
+}
+
+
+.main-div {
+    width: 450px;
+    height: 600px;
+    color: white;
+    background-color: gray;
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.inputs {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    padding-right: 10px;
+    margin-top: 25px;
+    font-family: Byekan;
+}
+
+.inputs:hover {
+    border-color: blue;
+
+
+}
+
+.input-buttom {
+    display: block;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin-right: 50px;
+    margin: 0 auto;
+    margin-top: 25px;
+    background-color: green;
+    color: white;
+    font-family: byekan;
+}
+
+.forget-password {
+    text-decoration: none;
+
+}
+
+/* .section1{
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    background-color: red; 
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.section2{
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    background-color: blue;  
+    border-radius: 10px;
+} */
+
+.section1 {
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    background-color: red;
+    margin: 25px;
+    border-radius: 10px;
+    color: white;
+    font-family: Byekan;
+}
+
+.section2 {
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    font-family: Byekan;
+    margin-left: 30px;
+}
+
+.buttons {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .main-div {
+        width: 300px;
+        height: 500px;
+        color: white;
+        background-color: gray;
+        border-radius: 25px;
+        margin: 0 auto;
+        margin-top: 25px;
+        text-align: center;
+        margin-right: 85px;
+    }
+
+    .inputs {
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+        padding-right: 10px;
+        margin-top: 25px;
+        font-family: Byekan;
+    }
+    .input-buttom {
+        
+        width: 200px;
+        height: 40px;
+        border-radius: 10px;
+      
+    }
+    .section1 {
+        display: inline-block;
+        width: 100px;
+        height: 35px;
+   
+    }
+    .section2 {
+        display: inline-block;
+        width: 100px;
+        height: 35px;
+        margin-left: 40px;
+    
+    }
+    .buttons {
+        text-align: center;
+        margin: 0 auto;
+       
+    }
+
+
+}
